@@ -1,0 +1,43 @@
+html {
+  font-size: 17px;
+}
+
+html, html* {
+  box-sizing: border-box;
+}
+html body, html* body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 1rem;
+}
+
+#myVideo {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 1.25rem;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 1.1rem;
+  padding: 0.6rem;
+  border: none;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

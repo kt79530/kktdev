@@ -1,0 +1,8 @@
+Python
+
+Vs code에서 Python 설치
+- C 드라이브에 폴더 생성
+- open folder > python > open file > intro.py 생성하면
+  하단에 install 메세지 뜸 
+
+* 파이썬 사이트에서 프로그램 다운받아서 설치 필수*

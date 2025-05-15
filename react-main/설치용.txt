@@ -1,0 +1,5 @@
+react new project 실행시 설치
+설치 위치 :<C:\kktdev\project\server>
+1. npm init -y
+2. npm install express body-parser mysql
+3. npm install nodemon

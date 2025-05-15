@@ -1,0 +1,8 @@
+vuetify 버젼 설치 명령어
+1.npm install @vue/cli -g
+2.vue create tify
+3.cd tify
+4.npm run serve
+5.vue add vuetify
+6.Choose a preset: Vuetify 3 - Vue CLI (preview)
+7.npm run serve
