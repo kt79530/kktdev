@@ -1,0 +1,61 @@
+@charset "UTF-8";
+html, html* {
+  box-sizing: border-box;
+}
+
+html {
+  /*float 단점 : 양 사이드를 깔끔하게 처리*/
+}
+html body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+html body .header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-color: white;
+}
+html .leftcolumn {
+  float: left;
+  width: 75%;
+}
+html .rigthcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+html .fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+html .card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+html .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+html .h200 {
+  height: 200px;
+}
+html .h100 {
+  height: 100px;
+}
+html .footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) and (min-width: 1025px) {
+  html .leftcolumn, html .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
